@@ -2,8 +2,8 @@ FROM python:3.10.10-slim-buster
 
 LABEL maintaner="your-email-address"
 
-RUN makdir -p /rice-quality
-WORKDIR /rice-quality
+RUN mkdir -p /ricequality-model
+WORKDIR /ricequality
 
 RUN pip install -no-cache-dir -v pip
 
