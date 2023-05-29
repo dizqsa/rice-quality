@@ -13,7 +13,7 @@ from uvicorn import run
 import os
 
 app = FastAPI()
-model_dir = "food-vision-model.h5"
+model_dir = "model.h5"
 model = load_model(model_dir)
 
 class_predictions = array([
