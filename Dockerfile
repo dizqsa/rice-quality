@@ -5,7 +5,7 @@ LABEL maintaner="your-email-address"
 RUN mkdir -p /ricequality-model
 WORKDIR /ricequality
 
-RUN pip install -no-cache-dir -v pip
+RUN pip install -no-cache-dir -U pip
 
 COPY requirements.txt .
 
