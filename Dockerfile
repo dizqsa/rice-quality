@@ -1,4 +1,4 @@
-FROM Python:3.10.10-slim-buster
+FROM python:3.10.10-slim-buster
 
 LABEL maintaner="your-email-address"
 
